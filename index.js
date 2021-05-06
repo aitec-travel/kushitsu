@@ -33,8 +33,6 @@ $(function () {
         var msg2 = `希望教習所：${selectedValue}`;
        
         sendText(msg);
-        
-        sleep(1000);
         sendText(msg2);
         
         return false;
