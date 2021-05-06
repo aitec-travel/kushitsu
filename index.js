@@ -34,7 +34,7 @@ $(function () {
        
         sendText(msg);
         
-        sleep(2000);
+        sleep(1000);
         sendText(msg2);
         
         return false;
