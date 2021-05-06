@@ -29,8 +29,13 @@ $(function () {
         })
         names = names.slice(0, -1);
 
-        var msg = `出発希望日：${date}\n人数：${number}\n氏名：${names}\n希望教習所：${selectedValue}`;
+        var msg = `出発希望日：${date}\n人数：${number}\n氏名：${names}`;
+        var msg2 = `希望教習所：${selectedValue}`;
+       
         sendText(msg);
+        
+        sleep(2000);
+        sendText(msg2);
         
         return false;
     });
