@@ -32,6 +32,7 @@ $(function () {
         var msg = `出発希望日：${date}\n人数：${number}\n氏名：${names}`;
         var msg2 = `希望教習所：${selectedValue}`;
         sendText(msg);
+        sleep(300);
         sendText(msg2);
         
         return false;
