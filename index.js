@@ -22,7 +22,7 @@ $(function () {
         var date = $('input[name="date"]').val();
         var number = $('input[name="number"]:checked').val();
         var names = '';
-        var selectedValue = $("#select01").val();
+        var selectedValue = $("select01").val();
 
         $('#form-name').children().each(function (i, elm) {
             names += $(elm).val() + '、';
